@@ -1,0 +1,8 @@
+This small script is used to scrape Instagram photos from a specified user's account.
+However it is only able to get the first 12, as this only scraped the images that
+are available directly after a page reload, e.g only the first 12 photos are loaded.
+
+This does not work on private account as private accounts do not have their img url's
+publicly available even through directly outputting all scraped info to json and
+paring through here. The user must supply the target account name, the database
+information is hard coded, however could be passed through at a later time.
